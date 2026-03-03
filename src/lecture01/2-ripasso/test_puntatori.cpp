@@ -1,4 +1,6 @@
 #include <iostream>
+void incrementa_ptr(int* px);
+
 void test_puntatori() {
     int x,b,c,d;
     int* px, * pb;

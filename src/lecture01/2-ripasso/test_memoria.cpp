@@ -6,7 +6,7 @@ void test_mem_static() {
     std::cout << x << std::endl;
 }
 void test_mem_dyn() {
-    int* pa;
+    int* px;
     px=new int;
     std::cout << *px << std::endl;
     *px=3;

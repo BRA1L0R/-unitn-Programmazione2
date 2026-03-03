@@ -1,5 +1,9 @@
 #include <iostream>
-int g;
+void f();
+void g();
+void modifica2();
+
+int gv;
 int x=5;
 void test_vars() {
     std::cout << "x in main " << x << std::endl;
